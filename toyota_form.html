@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toyota Service Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="number"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="submit"] {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            background-color: #28a745;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Toyota Service Form</h1>
+    <form id="toyotaForm">
+        <label for="refNo">Reference Number:</label>
+        <input type="text" id="refNo" name="refNo" required>
+
+        <label for="soNo">S/O Number:</label>
+        <input type="text" id="soNo" name="soNo" required>
+
+        <label for="supplier">Supplier:</label>
+        <input type="text" id="supplier" name="supplier" required>
+
+        <label for="technicianName">Technician Name:</label>
+        <input type="text" id="technicianName" name="technicianName" required>
+
+        <label for="area">Area:</label>
+        <input type="text" id="area" name="area" required>
+
+        <label for="mobile">Mobile:</label>
+        <input type="text" id="mobile" name="mobile" required>
+
+        <label for="customerName">Customer Name:</label>
+        <input type="text" id="customerName" name="customerName" required>
+
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address" required>
+
+        <label for="postcode">Postcode:</label>
+        <input type="text" id="postcode" name="postcode" required>
+
+        <label for="fault">Reported Fault:</label>
+        <input type="text" id="fault" name="fault" required>
+
+        <label for="email">Contact Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="contactName">Contact Name:</label>
+        <input type="text" id="contactName" name="contactName" required>
+
+        <label for="truckManufacturer">Truck Manufacturer:</label>
+        <input type="text" id="truckManufacturer" name="truckManufacturer" required>
+
+        <label for="truckModel">Truck Model:</label>
+        <input type="text" id="truckModel" name="truckModel" required>
+
+        <label for="batteryType">Battery Type:</label>
+        <input type="text" id="batteryType" name="batteryType" required>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
